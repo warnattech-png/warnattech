@@ -1,0 +1,12 @@
+<!-- Hero otimizado com <picture> para formatos modernos -->
+<section class="bg-blue-900 text-white pt-20 pb-16 text-center" aria-label="Câmera de segurança monitorando condomínio com piscina e casas modernas">
+  <picture>
+    <source srcset="banner.webp" type="image/webp"> <!-- Formato otimizado para browsers modernos -->
+    <img src="banner.jpg" alt="Banner de segurança CFTV em condomínio" class="w-full h-[500px] object-cover" loading="eager" decoding="async"> <!-- Eager para hero (carrega rápido) -->
+  </picture>
+  <div class="absolute inset-0 bg-blue-900/70 py-16 flex items-center justify-center">
+    <div class="max-w-5xl mx-auto px-4">
+      <!-- Conteúdo do hero aqui (h1, p, etc.) -->
+    </div>
+  </div>
+</section>
